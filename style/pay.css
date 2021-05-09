@@ -34,45 +34,61 @@
 
 }
 /*Contenido de compushop*/
-header {
-    margin-top: 150px;
-    text-align: center;
-    color: #545454;
-}
 #main{
     margin-top: 100px;
     min-height: 61vh;
     text-align: center;
 }
-#main h3 {
-    margin-bottom: 30px;
+header {
+    margin-top: 150px;
 }
-.pcImg {
-    width: 100%;
-    height: 100%;
+/*Calculo*/
+#amount {
+    background-color: #D8D8D8;
+    margin: 20px 350px;
+    border-radius: 20px;
+    min-height: 180px;
+    padding-top: 50px;
 }
-table {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 50px;
+#amountTitle{
+    margin-bottom: 40px;
 }
-table td {
-    width: 150px;
-    height: 150px;
-    border-bottom: 5px double black;
-}
-a button {
-    width: 150px;
+#amountButton button{
+    width: 100px;
     height: 30px;
-    margin-bottom: 50px;
-    border: 0px;
+    border: none;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
-a button:hover {
-    background-color: #545454;
+#amountButton button:hover{
+    background-color: #545454 ;
     color: #D8D8D8;
 }
+/*Orden*/
+#orderPay{
+    background-color: #D8D8D8;
+    margin: 20px 350px;
+    border-radius: 20px;
+    min-height: 300px;
+    padding-top: 50px;
+}
+#orderPay img{
+    width: 50%;
+    margin-bottom: 40px;
+}
+input {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+
+}
+#orderPay p{
+    padding-bottom: 20px;
+}
+
 /*Pie de pagina*/
 
 #containerFooter {

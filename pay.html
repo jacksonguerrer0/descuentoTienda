@@ -1,42 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CompuShop</title>
-    <link rel="stylesheet" href="style/style.css">
+    <title>Compra</title>
+    <link rel="stylesheet" href="style/pay.css">
 </head>
+
 <body>
-    <header>
-        <nav id="nav">
-            <ul id="navList">
-                    <li id="liNavImage"><a  href="index.html"><img id="imageNav" src="img/compuShop.png" alt="Logo de CompuShop"></a></li>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a target="_blank" href="pay.html">Compra</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav id="nav">
+        <ul id="navList">
+            <li id="liNavImage"><a href="index.html"><img id="imageNav" src="img/compuShop.png"
+                        alt="Logo de CompuShop"></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pay.html">Compra</a></li>
+        </ul>
+    </nav>
     <main id="main">
-        pagar
-        <table>
-            <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>5</td>
-                <td>6</td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td>8</td>
-                <td>9</td>
-            </tr>
-        </table>
+        <div id="amount">
+            <div id="amountTitle">
+                <h3>¿Puedo tener un descuento?</h3>
+                <p>Depende de la cantidad a comprar</p>
+            </div>
+            <div id="amountButton">
+                <label for="numberPc">
+                    <p>Añade la cantidad de computadores o laptos a comprar:</p><input type="number" name="numberPc"
+                        id="numberPc" placeholder="Cantidad de productos" required min="1">
+                </label>
+                <button onclick="" type="submit">Calcular</button>
+            </div>
+        </div>
+        <div id="orderPay">
+            <h3>Orden de la compra</h3>
+            <img src="img/compuShop.png" alt="Logo de CompuShop">
+            <div>
+                <h4>Valor de compra:</h4>
+                <input type="">
+                <h4>Valor de descuento:</h4>
+                <input type="text">
+                <h4>Total a pagar:</h4>
+                <input type="text">
+                <p>Aca va el total del descuento 23%</p>
+            </div>
+        </div>
     </main>
+
+
+
+
+
+
+
+
+
+
     <footer>
         <div id="containerFooter">
             <div id="imgFooter">
@@ -44,12 +63,13 @@
             </div>
             <div id="descriptionFooter">
                 <h4>¿Que somos?</h4>
-                <p>Somos una tienda virtual comprometida con la inovación y venta de computadores de calidad.</p>   
-            </div>  
+                <p>Somos una tienda virtual comprometida con la inovación y venta de computadores de calidad.</p>
+            </div>
             <div id="rightsFooter">
-                <p>Derechos reservados 2021 CompuShop</p> 
-            </div>       
+                <p>Derechos reservados 2021 CompuShop</p>
+            </div>
         </div>
     </footer>
 </body>
+
 </html>
