@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/*editando la barra de navegación*/
+#nav {
+    list-style: none;
+    background-color: #D8D8D8;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    text-align: center;
+}
+#nav ul li {
+    
+    display: inline-block;
+    font-size: 30px;
+    margin: 0px 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #545454;
+}
+#liNavImage {
+    width: 300px;
+}
+#imageNav{
+    width: 100%;
+}
+#navList a {
+    text-decoration: none;
+    color: #545454;
+    font-family: Georgia, 'Times New Roman', Times;
+
+}
+/*Contenido de compushop*/
+#main{
+    margin-top: 100px;
+    min-height: 61vh;
+}
+/*Pie de pagina*/
+
+#containerFooter {
+    text-align: center;
+    background-color: #D8D8D8;
+    width: 100%;
+}
+#descriptionFooter, #imgFooter{
+    display: inline-block;
+}
+#imgFooter {
+    margin-top: 40px;
+}
+#descriptionFooter {
+    height: 70px;
+    font-family: Georgia, 'Times New Roman', Times;
+    color: #545454;
+    width: 40%;
+    text-align: justify;
+}
+#descriptionFooter h4 {
+    margin: 10px 0px;
+}
+#rightsFooter {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    color: #545454;
+}
