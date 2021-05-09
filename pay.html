@@ -26,10 +26,9 @@
             </div>
             <div id="amountButton">
                 <label for="numberPc">
-                    <p>Añade la cantidad de computadores o laptos a comprar:</p><input type="number" name="numberPc"
-                        id="numberPc" placeholder="Cantidad de productos" required min="1">
+                    <p>Añade la cantidad de computadores o laptos a comprar:</p><input type="number" name="numberPc" id="numberPc" placeholder="Cantidad de productos"  min="1" required>
                 </label>
-                <button onclick="" type="submit">Calcular</button>
+                <button onclick="Calculate()" type="submit">Calcular</button>
             </div>
         </div>
         <div id="orderPay">
@@ -37,25 +36,16 @@
             <img src="img/compuShop.png" alt="Logo de CompuShop">
             <div>
                 <h4>Valor de compra:</h4>
-                <input type="">
+                <input type="text" readonly="readonly" id="purcharseValue">
                 <h4>Valor de descuento:</h4>
-                <input type="text">
+                <input type="text" readonly="readonly" id="discountValue">
                 <h4>Total a pagar:</h4>
-                <input type="text">
-                <p>Aca va el total del descuento 23%</p>
+                <input type="text" id="totalPay">
+                <p id="discount"></p>
+                <button onclick="location.href='pay.html'">Regresar</button>
             </div>
         </div>
     </main>
-
-
-
-
-
-
-
-
-
-
     <footer>
         <div id="containerFooter">
             <div id="imgFooter">
@@ -70,6 +60,7 @@
             </div>
         </div>
     </footer>
+    <script src="script/script.js"></script>
 </body>
 
 </html>

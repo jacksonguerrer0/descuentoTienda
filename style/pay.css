@@ -36,19 +36,17 @@
 /*Contenido de compushop*/
 #main{
     margin-top: 100px;
-    min-height: 61vh;
+    min-height: 71vh;
     text-align: center;
-}
-header {
-    margin-top: 150px;
 }
 /*Calculo*/
 #amount {
     background-color: #D8D8D8;
-    margin: 20px 350px;
+    margin: 0px 350px;
     border-radius: 20px;
     min-height: 180px;
     padding-top: 50px;
+    margin-top: 0px;
 }
 #amountTitle{
     margin-bottom: 40px;
@@ -67,7 +65,7 @@ header {
 /*Orden*/
 #orderPay{
     background-color: #D8D8D8;
-    margin: 20px 350px;
+    margin: 0px 350px;
     border-radius: 20px;
     min-height: 300px;
     padding-top: 50px;
@@ -87,6 +85,17 @@ input {
 }
 #orderPay p{
     padding-bottom: 20px;
+}
+#orderPay button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#orderPay button:hover{
+    background-color: #545454 ;
+    color: #D8D8D8;
 }
 
 /*Pie de pagina*/
